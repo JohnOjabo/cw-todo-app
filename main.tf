@@ -36,7 +36,7 @@ resource "aws_iam_role" "aws_access" {
 }
 
 resource "aws_iam_instance_profile" "instance_profile" {
-  name = "${var.prefix}-profile"
+  name = "${var.prefix}-profile2"
   role = aws_iam_role.aws_access.name
 }
 resource "aws_instance" "managed_nodes" {

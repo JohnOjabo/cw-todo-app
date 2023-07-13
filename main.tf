@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "cw-todo-app"
+    bucket = "cw-todo-app-buck101"
     key = "backend/tf-backend-jenkins.tfstate"
     region = "us-east-1"
     
